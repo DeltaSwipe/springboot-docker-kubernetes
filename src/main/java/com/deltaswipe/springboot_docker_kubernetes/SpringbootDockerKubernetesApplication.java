@@ -15,6 +15,6 @@ public class SpringbootDockerKubernetesApplication {
 
 	@GetMapping("/message")
 	public String getMessage(){
-		return "Dockerizing SpringBoot Application!";
+		return "Successfully containerized and orchestrated SpringBoot Application!";
 	}
 }
